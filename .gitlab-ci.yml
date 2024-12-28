@@ -32,7 +32,7 @@ update_helm_chart:
       - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -  
       # Git
       - git config --global user.email "nwissem545@gmail.com"
-      - git config --global user.name "nasri wissem"
+      - git config --global user.name "wissem123"
       - git clone       git@gitlab.com:project-gitlab-wissemnasri/manifest-repo.git
       - cd manifest-repo
       - ls -latr
