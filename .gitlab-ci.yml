@@ -4,7 +4,7 @@ stages:
 
 variables:
   APP_NAME: login_demo
-  IMAGE_TAG: registry.gitlab.com/d6245/code-repo/$APP_NAME:$CI_COMMIT_SHORT_SHA
+  IMAGE_TAG: registry.gitlab.com/project-gitlab-wissemnasri/code-repo/$APP_NAME:$CI_COMMIT_SHORT_SHA
 
 build_image:
   image: docker
