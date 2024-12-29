@@ -40,6 +40,7 @@ update_helm_chart:
       - cd manifest-repo
       - ls -latr
     script:
+      
     # Update Image TAG
      - sed -i "s/login_demo:.*/login_demo:${CI_COMMIT_SHORT_SHA}/g" test-login-app/values.yaml
      - git add test-login-app/values.yaml
