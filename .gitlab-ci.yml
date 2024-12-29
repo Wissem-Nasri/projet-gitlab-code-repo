@@ -2,6 +2,7 @@ stages:
   - build
   - update_helm_chart
 
+
 variables:
   
   APP_NAME: login_demo
